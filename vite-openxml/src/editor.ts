@@ -9,5 +9,5 @@ let startState = EditorState.create({
 
 let view = new EditorView({
   state: startState,
-  parent: document.body
+  parent: document.getElementById('codemirror')!
 })
